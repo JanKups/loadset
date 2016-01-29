@@ -6,7 +6,7 @@
       $scope.data = [];
       for(var i = 0; i < 500; ++i) {
           $scope.data[i] = {};
-          for(var j = 0; j < 10; ++j) {
+          for(var j = 0; j < 12; ++j) {
               $scope.data[i][j] = Math.random();
           }
       }

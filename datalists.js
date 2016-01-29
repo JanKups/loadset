@@ -18,7 +18,10 @@ var DATALIST = React.createClass({displayName: 'DATALIST',
                     React.DOM.td(null, datum['4']),
                     React.DOM.td(null, datum['6']),
                     React.DOM.td(null, datum['7']),
-                    React.DOM.td(null, datum['8'])
+                    React.DOM.td(null, datum['8']),
+                    React.DOM.td(null, datum['9']),
+                    React.DOM.td(null, datum['10']),
+                    React.DOM.td(null, datum['11'])
                   )
                 );
               });
