@@ -4,7 +4,7 @@
   controller('largedatacontroller', ['$scope', function($scope){
       $scope.framework = 'ReactJs';
       $scope.data = [];
-      for(var i = 0; i < 500; ++i) {
+      for(var i = 0; i < 1500; ++i) {
           $scope.data[i] = {};
           for(var j = 0; j < 12; ++j) {
               $scope.data[i][j] = Math.random();
